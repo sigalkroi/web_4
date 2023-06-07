@@ -85,27 +85,3 @@ function addNewElement() {
   }
 }
 
-
-function ChangeColorButton() {
-  var heading = document.querySelector("h1");
-  heading.style.color = "yellow";
-}
-
-function addh4() {
-  var h3 = document.querySelector("h3");
-  var newHeading = document.createElement("h4");
-  newHeading.textContent = "I'm a new heading";
-  newHeading.style.color = "red";
-  h3.insertAdjacentElement("afterend", newHeading);
-}
-
-// Function to add an image below the list
-function addImg() {
-  var list = document.querySelector("ul");
-  var image = document.createElement("img");
-  image.src = "1.jpeg";
-  list.insertAdjacentElement("afterend", image);
-}
-
-
-
